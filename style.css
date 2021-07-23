@@ -1,0 +1,107 @@
+h1{
+	color: black;
+	font-size: 450%;
+	font-weight: bolder;
+	transform: translate(25%,100%);
+
+
+}
+h2{
+	color: black;
+	font-size: 300%;
+	padding: 20px;
+
+}
+#banner{
+	width: 100%;
+	position: relative;
+}
+.cards{
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 30px;
+}
+#topbanner>a{
+	width: 30%;
+	transform: translate(2%,-30%);
+}
+.icon{
+	width: 50px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	background-color: #ccedd8;
+}
+li{
+	list-style-type: none;
+	line-height: 40px;
+
+}
+p{
+	color: black;
+	font-size:  200%;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	line line-height: 30px;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#topbanner{
+	display: flex;
+}
+#topbanner>a,h1,#topbanner>h2,#topbanner>div{
+	position: absolute;
+}
+#topbanner>h2{
+	background-color: white;
+	padding: 15px;
+	border-radius: 17px;
+	transform: translate(25%,640%);
+}
+#topbanner>div{
+	background-color: white;
+	padding: 10px;
+	border-radius: 17px;
+	transform: translate(1050%,30%);
+}
+#image{
+	display: flex;
+	justify-content: space-evenly;
+}
+#description{
+	display: flex;
+	justify-content: space-around;
+	text-align: left;
+}
+
+/*Media Querry -- for website responsiveness*/
+@media  screen and (max-width: 900px){
+	body{
+		background-color: yellow;
+	}
+	h1{
+		top: 10%;
+		font-size: 100%;
+	}
+	h2{
+		display: none;
+	}
+}
+
+
+@media  screen and (max-width: 600px){
+	body{
+		background-color: lightsalmon;
+	}
+	h1{
+		display: none;
+	}
+}
